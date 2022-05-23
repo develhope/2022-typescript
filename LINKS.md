@@ -66,6 +66,7 @@
 ### Lesson 2: Optional and read only properties
 
 - [TypeScript Documentation: Optional Properties](https://www.typescriptlang.org/docs/handbook/2/objects.html#optional-properties). Documentation for optional object properties in TypeScript.
+- [TypeScript Documentation: Non-null Assertion Operator (Postfix!)](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#non-null-assertion-operator-postfix-). "Writing `!` after any expression is effectively a type assertion that the value isn't `null` or `undefined`." We can use this operator when we know a value can't be `null` or `undefined`, for example: `someObject.someProperty!.toUpperCase()`
 - [MDN Web Docs: Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Syntax and examples for destructuring assignment in JavaScript.
 - [TypeScript Documentation: Readonly Properties](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-properties). Documentation for read only object properties in TypeScript.
 
@@ -150,6 +151,7 @@
 
 - [TypeScript Documentation: Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types). Documentation for union types.
 - [Tackling TypeScript: Union types](https://exploringjs.com/tackling-ts/ch_typescript-essentials.html#union-types). A section on union types in 'Tackling TypeScript'.
+- [TypeScript Documentation: Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html). An essential guide to narrowing types in Typescript. Topics include: type guards and discriminated unions.
 
 ### Lesson 2: Intersection types
 
